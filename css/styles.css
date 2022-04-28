@@ -34,12 +34,17 @@
     letter-spacing: 0.02em;
     color: var(--primary-text-colour);}
 
-            /* Хедер */
+    .container{
+        margin-left:auto;
+        margin-right: auto;
+        width: 1200px;
+        outline: 2px solid tomato;
+        text-decoration: none;
+    }
+
+           ----------- /* Хедер */------------------
            
-/* 
-.nav-list li + li{
-    margin-left: 40px; */
-}
+
 .nav-list:last-child{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -51,13 +56,7 @@
 .nav-lis:last-child:{
     margin-right: 0;
 }
-.container{
-    margin-left:auto;
-    margin-right: auto;
-    width: 1600px;
-    outline: 2px solid tomato;
-    text-decoration: none;
-}
+
 .page-header{
     display: inline-block;
     display: flex;
@@ -179,7 +178,7 @@
         margin-top: 0;
         padding-top: 0;
         margin-left: auto;
-        margin-right: 215px;
+        /* margin-right: 215px; */
         
     }
 .nav-contact-link li+li{
@@ -187,7 +186,7 @@
     }
     
 
-            /* Секция ХЕРО */
+            /* -----------------Секция ХЕРО-------------- */
 .hero{
      display: block;
      text-align: center;
@@ -196,8 +195,8 @@
 {
     margin-top: 200px;
     margin-bottom: 0px;
-    margin-left:  452px;
-    margin-right: 452px;
+    margin-left:  252px;
+    margin-right: 252px;
     display: inline-block;
 
     text-transform: uppercase;
