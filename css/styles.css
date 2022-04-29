@@ -24,8 +24,8 @@
     list-style: none;
     padding: 0;
     margin-top: 32px;
-   margin-right: 0;
-   padding-right: 0;
+    margin-right: 0;
+    padding-right: 0;
 
     font-family: 'Roboto';
     font-weight: 500;
@@ -34,19 +34,18 @@
     letter-spacing: 0.02em;
     color: var(--primary-text-colour);}
 
-    .container{
-        margin-left:auto;
-        margin-right: auto;
-        padding-right: 15px;
-        padding-left: 15px;
-        width: 1200px;
-        outline: 2px solid tomato;
+.container{
+     margin-left:auto;
+     margin-right: auto;
+     padding-right: 15px;
+     padding-left: 15px;
+     width: 1200px;
+     outline: 2px solid tomato;
        
     }
 
            ----------- /* Хедер */------------------
 
-}
 
 .nav-list:last-child{
     padding-top: 32px;
@@ -56,7 +55,7 @@
     margin-right: 0;
 }
 
-.nav-lis:last-child:{
+.nav-lis:last-child{
     margin-right: 0;
 }
 
@@ -67,15 +66,11 @@
      align-items: center;
      margin-left: auto;
      margin-right: auto;
-   
-
 }
-
 
 .logo-header
      {
      display: inline-block;
-     /* margin-left: 215px; */
      margin-right: 93px;
 
      font-family: 'Raleway';
@@ -101,8 +96,6 @@
     margin-left: 0;
     align-items: center;
     text-align: center;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
     padding-left: 0;
     list-style: none;
 
@@ -114,7 +107,6 @@
      letter-spacing: 0.02em;
      color: #212121;}
 
-}
 .a.header-menu-link{
 
 }
@@ -150,7 +142,7 @@
     color: var(--primary-text-colour);
      }
 
-     .nav-link-item-current{
+.nav-link-item-current{
         margin-left: 0;
         margin-right: 50px;
         text-decoration:none;
@@ -254,12 +246,13 @@
 
     display: inline-block;
     margin-right: 30px;
-    /* background-color: red; */
 
 }
+
 .advantage-item li{
     margin-right: 50px;
 }
+
 .advantage-list{
  
     display: flex;
@@ -299,10 +292,6 @@
 
             /*------------ чем мы занимаемся------------ */
 
-
-.whatwedo-section{
-
-}
 
 .whatwedo{
     display: block;
@@ -347,13 +336,13 @@ h2 .whatwedo-section{
             /*---------------- наша команда ----------------*/
 
  .team-list{
-display: flex;
-justify-content: center;
-align-items: stretch;
-padding-left: 0;padding-right: 0;
-margin-left: auto;
-margin-left: auto;
-margin-bottom: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      padding-left: 0;padding-right: 0;
+      margin-left: auto;
+      margin-left: auto;
+      margin-bottom: 0px;
 
  }
 .team
@@ -460,16 +449,16 @@ padding: 0;
 
 .uniqe-case
 {
-text-decoration:none;
-font-weight: 700;
-font-size: 18px;
-line-height: 200%;
-color: #212121;
-letter-spacing: 0.06em;
+    text-decoration:none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    color: #212121;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-link{
- text-decoration:none;
+    text-decoration:none;
 }
 
 .uniqe-case-topic{
