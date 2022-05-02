@@ -249,10 +249,23 @@
     align-items: center;
 }            
 .our-power{
-    visibility:hidden;
-    width: 0;
+    /* visibility:hidden; */
+    /* width: 0; */
     
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .advantage-item{
 
@@ -437,19 +450,27 @@ border: 1px #EEEEEE;
 .portfolio-list{
     display: flex;
     justify-content:center;
-    margin-top: 94px;
-    margin-bottom: 50px;
-    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 56px;
+    
 
 }
 .portfolio-buttons-list{
     display: inline-block;
     text-decoration: none;
     align-items: center;
-    color: tomato;
+    margin-left: 8px;
+    /* color: tomato; */
  
 }
- .container .portfolio-list{
+
+.portfolio-buttons-list:first-child{
+    margin-left: 0;
+}
+
+.portfolio-section{
+     padding-top: 94px;
+     padding-bottom: 94px;
 
 }
 .portfolio-buttons
@@ -461,7 +482,7 @@ border: 1px #EEEEEE;
     padding-right: 22px; ;
     padding-top: 6px;
     padding-bottom: 6px;
-    margin-left: 8px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
@@ -480,6 +501,8 @@ border: 1px #EEEEEE;
 
 .uniqe-case
 {
+    margin-top: 0;
+    margin-bottom: 4px;
     text-decoration:none;
     font-weight: 700;
     font-size: 18px;
@@ -490,6 +513,25 @@ border: 1px #EEEEEE;
 
 .portfolio-link{
     text-decoration:none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.item a{
+    /* display: inline-block; */
+    width: 0px;
+    height: 0px;
+}
+
+.portfolio-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+   
+    border-bottom : 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE ;
+
 }
 
 .uniqe-case-topic{
@@ -506,7 +548,7 @@ border: 1px #EEEEEE;
 }
 
 .portfolio-cards .item{
-    outline: 1px solid #EEEEEE;
+  
     margin-bottom: 30px;
 }
 
@@ -517,13 +559,24 @@ border: 1px #EEEEEE;
     
     flex-wrap: wrap;
     list-style: none;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
 }
 .portfolio-cards :nth-child(3n){
     margin-right: 0;
+}
+
+.portfolio-cards :nth-child(7n){
+    margin-bottom: 0;
+}
+
+.portfolio-cards :nth-child(8n){
+    margin-bottom: 0;
+}
+.portfolio-cards :nth-child(9n){
+    margin-bottom: 0;
 }
 
 .portfolio-cards li{
@@ -582,6 +635,7 @@ border: 1px #EEEEEE;
     .footer .list{
        display: block;
         margin-top: 20px;
+        margin-bottom: 0px;
     }
  .contact-links
  {  margin-top: 9px;
