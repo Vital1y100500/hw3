@@ -452,6 +452,7 @@ border: 1px #EEEEEE;
     justify-content:center;
     margin-top: 0px;
     margin-bottom: 56px;
+    padding-left: 0;
     
 
 }
@@ -564,6 +565,12 @@ border: 1px #EEEEEE;
     margin-top: 0;
     padding-left: 0;
 }
+
+.port-img{
+    display: block;
+}
+
+
 .portfolio-cards :nth-child(3n){
     margin-right: 0;
 }
